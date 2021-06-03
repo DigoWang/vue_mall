@@ -1,0 +1,10 @@
+// 配置 @ 代表 src 的路径
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+          "@/*": ["src/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+}
